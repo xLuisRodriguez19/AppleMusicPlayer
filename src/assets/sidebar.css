@@ -1,0 +1,18 @@
+.sidenav-container {
+    display: flex;
+    width: 20%;
+    background-color: aliceblue;
+    height: 100%;
+    border: 2px red;
+}
+
+.sidenav-content {
+    flex: 1;
+    border: 2px red;
+}
+
+.sidenav-menu {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
