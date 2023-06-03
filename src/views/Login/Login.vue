@@ -3,7 +3,7 @@
   import UserAccount from '@/components/icons/UserAccount.vue'
   import { useI18n } from 'vue-i18n'
 
-  const { t } = useI18n() 
+  const { t } = useI18n()
 </script>
 
 <template>
@@ -13,16 +13,25 @@
       <span>{{ t('LOGIN.TITLE') }}</span>
     </div>
     <div class="form-container">
-      <form class="login-form" action="">
+      <form
+        class="login-form"
+        action=""
+      >
         <label for="email">
           {{ t('LOGIN.LABELS.EMAIL') }}
         </label>
-        <input id="email" type="text">
+        <input
+          id="email"
+          type="text"
+        />
         <label for="password">
           {{ $t('LOGIN.LABELS.PASSWORD') }}
         </label>
-        <input id="password" type="password">
-        <button> {{ $t('LOGIN.BUTTON') }} </button>
+        <input
+          id="password"
+          type="password"
+        />
+        <button>{{ $t('LOGIN.BUTTON') }}</button>
       </form>
     </div>
   </div>

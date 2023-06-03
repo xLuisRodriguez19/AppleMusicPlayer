@@ -1,5 +1,5 @@
 export const PAGES = {
-    LANDING: 'landing',
-    LOGIN: 'login',
-    HOME: 'home'
+  LANDING: 'landing',
+  LOGIN: 'login',
+  HOME: 'home'
 }

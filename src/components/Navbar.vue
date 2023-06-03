@@ -1,10 +1,9 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
   <section class="sidenav-container">
     <div class="sidenav-content">
       <div>
-      <button>Profile</button>
+        <button>Profile</button>
       </div>
       <div class="sidenav-menu">
         <button>Home</button>

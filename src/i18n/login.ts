@@ -4,7 +4,7 @@ const login = {
       TITLE: 'Sing In',
       LABELS: {
         EMAIL: 'Apple ID',
-        PASSWORD: 'Password',
+        PASSWORD: 'Password'
       },
       BUTTON: 'Login'
     }

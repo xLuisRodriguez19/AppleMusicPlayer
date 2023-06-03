@@ -11,7 +11,7 @@ import messages from './i18n/index'
 const app = createApp(App)
 
 const i18n = createI18n({
-  legacy: false, 
+  legacy: false,
   locale: 'en',
   fallbackLocale: 'en',
   messages: messages
