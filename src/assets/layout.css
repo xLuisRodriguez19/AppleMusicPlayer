@@ -1,0 +1,17 @@
+.layout {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  overflow: auto;
+}
+
+.main-layout {
+  margin-left: auto;
+  margin-right: auto;
+  height: calc(50vh - 20px);
+}
+
+.container-layout {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,10 @@
+.form-button {
+  background-color: var(--primary-color-font);
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}

@@ -8,31 +8,44 @@
 
 <template>
   <div class="login-container">
-    <div class="login-user">
-      <UserAccount />
-      <span>{{ t('LOGIN.TITLE') }}</span>
-    </div>
-    <div class="form-container">
-      <form
-        class="login-form"
-        action=""
-      >
-        <label for="email">
-          {{ t('LOGIN.LABELS.EMAIL') }}
-        </label>
-        <input
-          id="email"
-          type="text"
+    <div class="box-container">
+      <div class="login-user">
+        <UserAccount
+          color="#fc3c44"
+          width="100"
         />
-        <label for="password">
-          {{ $t('LOGIN.LABELS.PASSWORD') }}
-        </label>
-        <input
-          id="password"
-          type="password"
-        />
-        <button>{{ $t('LOGIN.BUTTON') }}</button>
-      </form>
+        <span class="label-form">{{ t('LOGIN.TITLE') }}</span>
+      </div>
+      <div class="form-container">
+        <form
+          class="login-form"
+          action=""
+        >
+          <label
+            for="email"
+            class="label-form"
+          >
+            {{ t('LOGIN.LABELS.EMAIL') }}
+          </label>
+          <input
+            class="input-form"
+            id="email"
+            type="text"
+          />
+          <label
+            for="password"
+            class="label-form"
+          >
+            {{ $t('LOGIN.LABELS.PASSWORD') }}
+          </label>
+          <input
+            class="input-form"
+            id="password"
+            type="password"
+          />
+          <button class="form-button">{{ $t('LOGIN.BUTTON') }}</button>
+        </form>
+      </div>
     </div>
   </div>
 </template>

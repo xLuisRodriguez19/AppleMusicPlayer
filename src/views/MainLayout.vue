@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import Sidenav from '@/components/Sidenav.vue'
+</script>
 <template>
-  <router-view></router-view>
+  <div class="layout">
+    <Sidenav />
+    <div class="main-layout">
+      <div class="container-layout">
+        <router-view></router-view>
+      </div>
+    </div>
+  </div>
 </template>

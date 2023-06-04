@@ -1,18 +1,57 @@
 .sidenav-container {
-    display: flex;
+    display: grid;
     width: 20%;
-    background-color: aliceblue;
+    background-color: var(--primari-color-base);
+    border: 2px solid red;
+    position: fixed;
     height: 100%;
-    border: 2px red;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s;
 }
 
 .sidenav-content {
-    flex: 1;
-    border: 2px red;
+    padding: 10px;
 }
 
+.sidenav-profile {
+    display: grid;
+}
+
+.sidenav-profile span {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--primary-color-font);
+    font-size: 20px;
+}
+
+
 .sidenav-menu {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 30px;
+    justify-content: start;
+    gap: 10px;
+}
+
+
+.sidenav-menu span {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--primary-color-font);
+    font-size: 20px;
+}
+
+.icons-sidenav {
+    height: 40px;
+    color: var(--primary-color-font);
+}
+
+.sidenav-footer {
+    position: relative;
+    margin-top: auto;
 }
